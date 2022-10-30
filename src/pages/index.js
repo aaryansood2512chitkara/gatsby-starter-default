@@ -85,7 +85,7 @@ const IndexPage = () => (
         Welcome to <b>Gatsby!</b> by <b> Aaryan Sood</b> 
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
+        <b>Pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
@@ -93,7 +93,7 @@ const IndexPage = () => (
           </React.Fragment>
         ))}
         <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        
       </p>
     </div>
     <ul className={styles.list}>
